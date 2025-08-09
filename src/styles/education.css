@@ -1,0 +1,63 @@
+.education-section {
+  background: #f9f6ff;
+  color: #333;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.education-section h2 {
+  font-size: 2rem;
+  color: #b388eb;
+  margin-bottom: 3rem;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.education-list::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 20px;
+  width: 4px;
+  height: 100%;
+  background: #d0b3ff;
+  border-radius: 2px;
+}
+
+.education-card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-left: 50px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card::before {
+  content: "";
+  position: absolute;
+  top: 20px; left: -38px;
+  width: 20px; height: 20px;
+  background: #b388eb;
+  border: 3px solid #f9f6ff;
+  border-radius: 50%;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.education-card h3 { color: #b388eb; }
+.education-card .college { color: #666; }
+.education-card .year { color: #888; }
+.education-card .details { color: #555; }
+
+

@@ -4,14 +4,20 @@ import "../styles/certificates.css";
 export default function Certificates() {
   const certificates = [
     {
-      title: "AWS Cloud Practitioner",
-      issuer: "Amazon Web Services",
+      title: "MongoDB Self-Learning Certification Program",
+      issuer: "ICT Academy & MongoDB University",
       year: "2025",
       link: "#" // Certificate link or PDF
     },
     {
       title: "Java Full-Stack ",
       issuer: "Wipro",
+      year: "2025",
+      link: "#"
+    },
+    {
+      title: "Hackhathon Participation",
+      issuer: "MIET",
       year: "2025",
       link: "#"
     }

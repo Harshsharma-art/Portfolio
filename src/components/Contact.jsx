@@ -13,7 +13,7 @@ export default function Contact() {
         <p>
           <strong>LinkedIn:</strong>{" "}
           <a 
-            href="www.linkedin.com/in/harsh-sharma-a0913024b" 
+            href="https://www.linkedin.com/in/harsh-sharma-a0913024b" 
             target="_blank" 
             rel="noreferrer"
           >

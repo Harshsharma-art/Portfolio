@@ -1,13 +1,13 @@
 .education-section {
-  background: #f9f6ff;
-  color: #333;
+  background: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
   padding: 4rem 2rem;
   text-align: center;
 }
 
 .education-section h2 {
   font-size: 2rem;
-  color: #b388eb;
+  color: #bb86fc; /* Purple accent */
   margin-bottom: 3rem;
 }
 
@@ -23,18 +23,19 @@
 .education-list::before {
   content: "";
   position: absolute;
-  top: 0; left: 20px;
+  top: 0;
+  left: 20px;
   width: 4px;
   height: 100%;
-  background: #d0b3ff;
+  background: #7e57c2; /* Muted purple line */
   border-radius: 2px;
 }
 
 .education-card {
-  background: #fff;
+  background: #1e1e1e; /* Dark card */
   padding: 1.5rem 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   margin-left: 50px;
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -43,21 +44,32 @@
 .education-card::before {
   content: "";
   position: absolute;
-  top: 20px; left: -38px;
-  width: 20px; height: 20px;
-  background: #b388eb;
-  border: 3px solid #f9f6ff;
+  top: 20px;
+  left: -38px;
+  width: 20px;
+  height: 20px;
+  background: #bb86fc; /* Purple dot */
+  border: 3px solid #121212; /* Match section background */
   border-radius: 50%;
 }
 
 .education-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
 }
 
-.education-card h3 { color: #b388eb; }
-.education-card .college { color: #666; }
-.education-card .year { color: #888; }
-.education-card .details { color: #555; }
+.education-card h3 {
+  color: #bb86fc; /* Accent heading */
+}
 
+.education-card .college {
+  color: #aaaaaa; /* Soft gray */
+}
 
+.education-card .year {
+  color: #888888; /* Dim gray */
+}
+
+.education-card .details {
+  color: #cccccc; /* Light gray details */
+}

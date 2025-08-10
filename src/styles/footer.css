@@ -1,22 +1,24 @@
 .footer {
-  background: #f9f6ff;
-  color: #555;
+  background: #121212; /* Dark background */
+  color: #aaaaaa; /* Light gray text */
   text-align: center;
   padding: 1.5rem;
-  border-top: 2px solid #d0b3ff;
+  border-top: 2px solid #7e57c2; /* Muted purple border */
   font-size: 0.95rem;
-  box-shadow: 0 -2px 8px rgba(0,0,0,0.03);
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.4);
 }
 
 .footer a {
-  color: #b388eb;
+  color: #bb86fc; /* Purple accent */
   text-decoration: none;
   font-weight: bold;
 }
 
 .footer a:hover {
-  color: #9c6de2;
+  color: #9c6de2; /* Slightly darker purple */
   text-decoration: underline;
 }
 
-.footer p { margin: 0.4rem 0; }
+.footer p {
+  margin: 0.4rem 0;
+}

@@ -1,13 +1,13 @@
 .certificates-section {
-  background: #f9f6ff;
-  color: #333;
+  background: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
   padding: 4rem 2rem;
   text-align: center;
 }
 
 .certificates-section h2 {
   font-size: 2rem;
-  color: #b388eb;
+  color: #bb86fc; /* Soft purple accent */
   margin-bottom: 3rem;
 }
 
@@ -20,31 +20,41 @@
 }
 
 .certificate-card {
-  background: #fff;
+  background: #1e1e1e; /* Dark card */
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .certificate-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
 }
 
-.certificate-card h3 { color: #b388eb; }
-.certificate-card .issuer { color: #555; }
-.certificate-card .year { color: #777; }
+.certificate-card h3 {
+  color: #bb86fc; /* Accent for title */
+}
+
+.certificate-card .issuer {
+  color: #aaaaaa; /* Soft gray for issuer */
+}
+
+.certificate-card .year {
+  color: #888888; /* Dim gray for year */
+}
 
 .view-btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background: #b388eb;
-  color: #fff;
+  background: #bb86fc;
+  color: #121212;
   font-weight: bold;
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.3s ease;
 }
 
-.view-btn:hover { background: #9c6de2; }
+.view-btn:hover {
+  background: #9c6de2; /* Slightly darker hover */
+}

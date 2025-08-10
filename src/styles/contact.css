@@ -1,17 +1,20 @@
 .contact-section {
-  background: #f9f6ff;
-  color: #333;
+  background: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
   padding: 4rem 2rem;
   text-align: center;
 }
 
 .contact-section h2 {
-  color: #b388eb;
+  color: #bb86fc; /* Purple accent */
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.contact-section p { color: #555; margin-bottom: 2rem; }
+.contact-section p {
+  color: #aaaaaa; /* Soft gray for paragraph */
+  margin-bottom: 2rem;
+}
 
 .contact-container {
   display: flex;
@@ -25,10 +28,10 @@
 .contact-form {
   flex: 1;
   min-width: 300px;
-  background: #fff;
+  background: #1e1e1e; /* Dark card */
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .contact-form input,
@@ -36,21 +39,21 @@
   width: 100%;
   margin-bottom: 1rem;
   padding: 0.8rem;
-  border: 1px solid #ddd;
+  border: 1px solid #333;
   border-radius: 5px;
-  background: #fefefe;
+  background: #2a2a2a; /* Input dark background */
   font-size: 1rem;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: 1px solid #b388eb;
+  outline: 1px solid #bb86fc;
 }
 
 .contact-form button {
-  background: #b388eb;
-  color: #fff;
+  background: #bb86fc;
+  color: #121212;
   border: none;
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
@@ -59,19 +62,25 @@
   transition: 0.3s;
 }
 
-.contact-form button:hover { background: #9c6de2; }
+.contact-form button:hover {
+  background: #9c6de2;
+}
 
 .contact-info {
   flex: 1;
   min-width: 250px;
-  background: #fff;
+  background: #1e1e1e; /* Dark card */
   padding: 2rem;
   border-radius: 10px;
   text-align: left;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-.contact-info a { color: #b388eb; text-decoration: none; }
-.contact-info a:hover { text-decoration: underline; }
+.contact-info a {
+  color: #bb86fc;
+  text-decoration: none;
+}
 
-
+.contact-info a:hover {
+  text-decoration: underline;
+}

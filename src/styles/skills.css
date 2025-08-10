@@ -1,13 +1,13 @@
 .skills-section {
-  background: #f9f6ff;
-  color: #333;
+  background: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
   padding: 4rem 2rem;
   text-align: center;
 }
 
 .skills-section h2 {
   font-size: 2rem;
-  color: #b388eb;
+  color: #bb86fc; /* Purple accent */
   margin-bottom: 2.5rem;
 }
 
@@ -20,40 +20,38 @@
 }
 
 .skill-card {
-  background: #fff;
+  background: #1e1e1e; /* Dark card */
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
 }
 
 .skill-card h3 {
-  color: #b388eb;
+  color: #bb86fc; /* Accent title */
   margin-bottom: 1rem;
   font-size: 1.25rem;
-  border-bottom: 1px solid rgba(179,136,235,0.2);
+  border-bottom: 1px solid rgba(187, 134, 252, 0.2);
   padding-bottom: 0.5rem;
 }
 
 .skill-card ul li {
   margin-bottom: 0.6rem;
-  color: #555;
+  color: #aaaaaa; /* Soft gray for text */
   font-size: 0.95rem;
   padding-left: 18px;
   position: relative;
 }
 
 .skill-card ul li::before {
-  content: "•";
+  content: "•"; /* Bullet */
   position: absolute;
   left: 0;
-  color: #b388eb;
+  color: #bb86fc; /* Purple bullet */
 }
-
-

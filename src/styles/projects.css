@@ -1,13 +1,13 @@
 .projects-section {
-  background: #f9f6ff;
-  color: #333;
+  background: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
   padding: 4rem 2rem;
   text-align: center;
 }
 
 .projects-section h2 {
   font-size: 2rem;
-  color: #b388eb;
+  color: #bb86fc; /* Purple accent */
   margin-bottom: 3rem;
 }
 
@@ -20,28 +20,36 @@
 }
 
 .project-card {
-  background: #fff;
+  background: #1e1e1e; /* Dark card */
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
 }
 
-.project-card h3 { color: #b388eb; }
-.project-card p { color: #555; }
-.tech-stack { color: #777; }
+.project-card h3 {
+  color: #bb86fc; /* Accent for titles */
+}
+
+.project-card p {
+  color: #aaaaaa; /* Light gray for descriptions */
+}
+
+.tech-stack {
+  color: #888888; /* Dim gray for tech stack */
+}
 
 .project-links a {
   display: inline-block;
   margin-right: 10px;
   padding: 0.6rem 1.2rem;
-  background: #b388eb;
-  color: #fff;
+  background: #bb86fc;
+  color: #121212;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
